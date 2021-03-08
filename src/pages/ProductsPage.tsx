@@ -11,14 +11,14 @@ export function ProductsPage() {
 
 	return (
 		<React.Fragment>
-			<PageTitle title="My Products" />
+			<PageTitle title="Mis Productos" />
 			<Container className="px-2">
 				<Container centered>
 					<Button onClick={toggleForm}>
-						<i className="fas fa-plus"></i> Add Product
+						<i className="fas fa-plus"></i> Agregar Producto
 					</Button>
 				</Container>
-				{isOpen && <ProductForm title="Add Product" />}
+				{isOpen && <ProductForm title="Nuevo Producto" />}
 			</Container>
 		</React.Fragment>
 	);

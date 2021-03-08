@@ -6,7 +6,7 @@ const defaultClasses =
 interface IProps {
 	to: string;
 	className?: string;
-	children?: JSX.Element | string;
+	children?: React.ReactNode;
 }
 
 export function LinkButton({ to, className = '', children = '' }: IProps) {

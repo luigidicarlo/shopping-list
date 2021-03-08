@@ -1,9 +1,9 @@
 export function NotFoundPage() {
 	return (
 		<div>
-			<h1>404 Not Found</h1>
+			<h1>404 No Encontrado</h1>
 			<p>
-				It seems that the resource you tried to access is no longer available
+				Parece que el recurso al que intentaste acceder no está disponible
 			</p>
 		</div>
 	);

@@ -16,9 +16,11 @@ export function HomePage() {
 
 	return (
 		<React.Fragment>
-			<PageTitle title="My Inventory" />
+			<PageTitle title="Mi inventario" />
 			<Container centered>
-				<LinkButton to="/products">Manage Products</LinkButton>
+				<LinkButton to="/products">
+					<i className="fas fa-box"></i> Gestionar Productos
+				</LinkButton>
 			</Container>
 			<Separator size="md" />
 			<Products products={products} />
